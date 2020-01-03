@@ -1,0 +1,1 @@
+basic：designer的配置以及添加到pycharm中。

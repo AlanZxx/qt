@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd3dfced-c4d3-47bc-a6be-76753b31ddff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\python_code\qt\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VsZQse8OaxQ5osOFWJSdVtUPGq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="D:/anaconda/envs/pyqt/python.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python_code\qt\src\basic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/basic/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qt_tesst" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\python_code\qt\src\basic\qt_tesst.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.qt_tesst" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd3dfced-c4d3-47bc-a6be-76753b31ddff" name="Default Changelist" comment="" />
+      <created>1578043749168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578043749168</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1578043893937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578043893937</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1578043993716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578043993716</updated>
+    </task>
+    <task id="LOCAL-00003" summary="designer的配置&#10;将pycharm添加designer和pyuic">
+      <created>1578048226476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578048226476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic" />
+    <option name="LAST_COMMIT_MESSAGE" value="designer的配置&#10;将pycharm添加designer和pyuic" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578048127348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048127348" />
+    <state x="689" y="150" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578047228858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="150" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047228858" />
+    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578048180724">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048180724" />
+    <state x="511" y="38" key="CommitChangelistDialog2" timestamp="1578048225939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="511" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048225939" />
+    <state x="689" y="212" key="FileChooserDialogImpl" timestamp="1578047370126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="212" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047370126" />
+    <state x="805" y="380" width="340" height="279" key="Github.ShareDialog" timestamp="1578043918957">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="805" y="380" width="340" height="279" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578043918957" />
+    <state width="1894" height="270" key="GridCell.Tab.0.bottom" timestamp="1578047783301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
+    <state width="1894" height="270" key="GridCell.Tab.0.center" timestamp="1578047783301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
+    <state width="1894" height="270" key="GridCell.Tab.0.left" timestamp="1578047783301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
+    <state width="1894" height="270" key="GridCell.Tab.0.right" timestamp="1578047783301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1894" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
+    <state x="337" y="72" key="SettingsEditor" timestamp="1578048181293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048181293" />
+    <state x="452" y="182" key="Vcs.Push.Dialog.v2" timestamp="1578048234521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048234521" />
+  </component>
+</project>
