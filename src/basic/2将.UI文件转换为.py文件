@@ -1,0 +1,10 @@
+将.ui文件转换为.py文件
+第一种
+python -m PyQt5.uic.pyuic xxxx.ui -o xxxx.py
+
+第二种
+设置pyuic
+
+python.exe
+-m PyQt5.uic.pyuic $FileName$ -o $FileNameWithoutExtension$.py
+$FileDir$

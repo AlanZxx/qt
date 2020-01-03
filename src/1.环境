@@ -1,0 +1,5 @@
+1.直接用anaconda安装pyqt5-tools里面bin包含designer.exe
+
+设置designer
+D:\anaconda\envs\pyqt\Lib\site-packages\pyqt5_tools\Qt\bin\designer.exe
+$ProjectFileDir$
