@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3dfced-c4d3-47bc-a6be-76753b31ddff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/CenterForm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/QuitApplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/ScreenGeometry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pub" value="1" />
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
           <entry key="py文件" value="1" />
           <entry key="主窗口类型" value="1" />
           <entry key="环境" value="1" />
@@ -35,20 +34,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1109" />
-          <entry key="txt" value="26" />
+          <entry key="py" value="1413" />
+          <entry key="txt" value="50" />
           <entry key="主窗口类型" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="163" />
-          <entry key="Python" value="1109" />
+          <entry key="PLAIN_TEXT" value="187" />
+          <entry key="Python" value="1413" />
         </counts>
       </usages-collector>
     </session>
@@ -98,14 +97,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/QuitApplication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state>
+              <caret selection-end-line="2" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1578157065331" expanded="true" signature="132:137" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controllers/ScreenGeometry.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1578157624475" expanded="true" signature="829:830" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/controllers/FirstMainWin.py" />
         <option value="$PROJECT_DIR$/src/controllers/CenterForm.py" />
         <option value="$PROJECT_DIR$/src/controllers/QuitApplication.py" />
+        <option value="$PROJECT_DIR$/src/controllers/ScreenGeometry.py" />
       </list>
     </option>
   </component>
@@ -235,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QuitApplication">
+  <component name="RunManager" selected="Python.ScreenGeometry">
     <configuration name="CenterForm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,6 +312,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ScreenGeometry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controllers/ScreenGeometry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,41 +354,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qt_tesst" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="qt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\python_code\qt\src\basic\qt_tesst.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.demo" />
-      <item itemvalue="Python.qt_tesst" />
       <item itemvalue="Python.FirstMainWin" />
       <item itemvalue="Python.CenterForm" />
       <item itemvalue="Python.QuitApplication" />
+      <item itemvalue="Python.ScreenGeometry" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ScreenGeometry" />
         <item itemvalue="Python.QuitApplication" />
         <item itemvalue="Python.CenterForm" />
         <item itemvalue="Python.FirstMainWin" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.qt_tesst" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578155730486</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出">
+      <created>1578157141027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578157141027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -449,7 +469,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic" />
     <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget" />
-    <option name="LAST_COMMIT_MESSAGE" value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget" />
+    <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出" />
+    <option name="LAST_COMMIT_MESSAGE" value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578048127348">
@@ -560,11 +581,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/QuitApplication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state>
+          <caret selection-end-line="2" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1578157065331" expanded="true" signature="132:137" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/ScreenGeometry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1578157624475" expanded="true" signature="829:830" ph="..." />
           </folding>
         </state>
       </provider>
