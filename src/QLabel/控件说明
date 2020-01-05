@@ -5,3 +5,6 @@ palette.setColor(QPalette.Window,Qt.blue)  设置背景颜色
 Qlabel常用的信号:
     1.当鼠标滑过label控件时触发:LinkHovered
     2.当鼠标单机Qlabel控件时触发：linkActivated
+
+
+Qlabel的伙伴控制
