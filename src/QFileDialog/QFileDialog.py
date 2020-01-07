@@ -26,7 +26,7 @@ class QfileDialogDemo(QWidget):
 
         self.setLayout(layout)
         self.setWindowTitle("文件对话框演示")
-        self.resize(500,500)
+        # self.resize(500, 500)
 
     def loadImage(self):
         fname, _=QFileDialog.getOpenFileName(self, "打开文件", '.', '图像文件(*.jpg *.png)')
@@ -38,11 +38,18 @@ class QfileDialogDemo(QWidget):
         dialog.setFilter(QDir.Files)
 
         if dialog.exec():
+            print("dakai1")
             filenames = dialog.selectedFiles()
-            f = open(filenames[0], 'r')
+            print("dakai2")
+            # 必须要加，不然会出现bug
+            f = open(filenames[0],encoding='utf-8', mode='r')
+            print("dakai3")
             with f:
+                print("dakai4")
                 data = f.read()
+                print("dakai5")
                 self.contents.setText(data)
+                print("dakai6")
         # print("load text")
 
 if __name__ == '__main__':

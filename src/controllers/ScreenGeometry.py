@@ -26,7 +26,7 @@ app = QApplication(sys.argv)
 widget = QWidget()
 btn = QPushButton(widget)
 btn.setText("按钮")
-btn.clicked.connect(onClick_btn)
+btn.clicked.connect(onClick_btn)   
 
 btn.move(24,53)
 widget.resize(400,240)
