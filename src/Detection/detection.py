@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication,QListWidget,QListWidgetItem,QTextEdit,QMessageBox,QWidget,QGridLayout,QLabel,QPushButton,QRadioButton,QFileDialog,QDialog
+from PyQt5.QtWidgets import QApplication,QListWidget,QHBoxLayout,QVBoxLayout,QListWidgetItem,QTextEdit,QMessageBox,QWidget,QGridLayout,QLabel,QPushButton,QRadioButton,QFileDialog,QDialog
 from PyQt5.QtGui import QIcon,QPixmap,QFont
 from PyQt5.QtCore import Qt,QDir,QSize
 import sys
@@ -17,65 +17,103 @@ class MainWindow(QWidget):
         self.initListener()
 
     def initUI(self):
-        font = QFont("Microsoft YaHei", 20, 60);
+        self.setWindowTitle("目标检测主窗口")
+        self.setWindowIcon(QIcon("./../image/excavator.ico"))
         # 第一个属性是字体（微软雅黑），第二个是大小，第三个是加粗（权重是75）
+        font = QFont("Microsoft YaHei", 20, 60);
         desktop = QApplication.desktop()
         # self.setGeometry(300,300,250,150)
         self.resize(int(desktop.width()*3/4),int(desktop.height()*3/4))
 
+
         self.label_left = QListWidget()
-        # self.label_left.setText("检测文件夹结果详情")
-        # self.label_left.setFont(font)
+        # sz = QSize(self.label_left.width(),self.label_left.height())
+        # self.label_left.setFixedSize(sz.width(),sz.height())
         self.label_left.setWindowTitle("文件夹线下图片列表")
 
         self.label_middle1 = QLabel()
         self.label_middle1.setText("原图片/图片集")
+        self.label_middle1.setStyleSheet("font:20pt '楷体';border-width: 1px;border-style: solid;border-color: rgb(0, 0, 0);")
         self.label_middle1.setFont(font)
 
 
         self.label_middle2 = QLabel()
         # self.label_middle2.setPixmap(QPixmap("./../image/1.jpg"))
         self.label_middle2.setFont(font)
+        self.label_middle2.setStyleSheet("font:20pt '楷体';border-width: 1px;border-style: solid;border-color: rgb(0, 0, 0);")
         self.label_middle2.setText("结果图片/图片集")
 
         self.label_right1 = QLabel()
         self.label_right1.setFont(font)
+        self.label_right1.setStyleSheet("font:20pt '楷体';border-width: 1px;border-style: solid;border-color: rgb(0, 0, 0);")
         self.label_right1.setText("目标详情")
 
         self.label_right2 = QLabel()
+        self.label_right2.setStyleSheet("border-width: 1px;border-style: solid;border-color: rgb(0, 0, 0);")
         self.label_right2.setText("文件/文件夹路径")
 
         self.status = QTextEdit()
         self.status.setText("就绪")
-        # self.status.setEnabled(False)
 
         self.radio1 = QRadioButton("文件")
         self.radio1.setChecked(True)
 
         self.radio2 = QRadioButton("文件夹")
 
-        # self.btn1_select_photo = QPushButton("选择文件")
-        # self.btn2_select_folder = QPushButton("选择文件夹")
         self.select  = QPushButton("选择文件/文件夹")
         self.btn_send = QPushButton("开始检测")
-        mainLayout = QGridLayout()
-        mainLayout.addWidget(self.label_left,0,0,6,3)
-        mainLayout.addWidget(self.status,6,0,5,3)
-        mainLayout.addWidget(self.label_middle1,0,3,5,5)
-        mainLayout.addWidget(self.label_middle2,5,3,5,5)
 
-        mainLayout.addWidget(self.label_right1,0,8,6,2)
-        mainLayout.addWidget(self.label_right2,6,8,1,2)
-        mainLayout.addWidget(self.radio1,7,8,1,1)
-        mainLayout.addWidget(self.radio2,7,9,1,1)
-        mainLayout.addWidget(self.select,8,8,1,2)
-        mainLayout.addWidget(self.btn_send,9,8,1,2)
-        # path = r"E:\python_code\qt\src\image\1.jpg"
-        # self.update_display(self.label_middle2,path)
-        # self.update_display(self.label_middle1,path)
 
-        self.setWindowTitle("目标检测主窗口")
-        self.setWindowIcon(QIcon("./../image/excavator.ico"))
+        #全局布局
+        mainLayout = QHBoxLayout()
+
+        # 局部布局
+        layout_left = QVBoxLayout()
+        widget_left = QWidget()
+        layout_middle = QVBoxLayout()
+        widget_middle = QWidget()
+        layout_right = QVBoxLayout()
+        widget_right = QWidget()
+
+        # 左边添加控件
+        layout_left.addWidget(self.label_left)
+        layout_left.addWidget(self.status)
+        layout_left.setStretchFactor(self.label_left, 2)
+        layout_left.setStretchFactor(self.status, 1)
+        widget_left.setLayout(layout_left)
+
+    #     中间添加控件
+        layout_middle.addWidget(self.label_middle1)
+        layout_middle.addWidget(self.label_middle2)
+        widget_middle.setLayout(layout_middle)
+
+    # #     右边添加控件
+        layout_right.addWidget(self.label_right1)
+        layout_right.setStretchFactor(self.label_right1, 10)
+        layout_right.addWidget(self.label_right2)
+        layout_right.setStretchFactor(self.label_right2, 1)
+
+        # 右边两个文件/文件夹需要水平方式
+        label_right_2 = QHBoxLayout()
+        label_right_2.addWidget(self.radio1)
+        label_right_2.addWidget(self.radio2)
+        widget_temp = QWidget()
+        widget_temp.setLayout(label_right_2)
+        layout_right.addWidget(widget_temp)
+        layout_right.setStretchFactor(widget_temp, 1)
+        layout_right.addWidget(self.select)
+        layout_right.setStretchFactor(self.select, 1)
+        layout_right.addWidget(self.btn_send)
+        layout_right.setStretchFactor(self.btn_send, 1)
+
+        widget_right.setLayout(layout_right)
+
+        mainLayout.addWidget(widget_left)
+        mainLayout.addWidget(widget_middle)
+        mainLayout.addWidget(widget_right)
+        widget_left.setFixedWidth(int(self.size().width()/5))
+        widget_middle.setFixedWidth(int(self.size().width()*3/5))
+        widget_right.setFixedWidth(int(self.size().width()/5))
         self.setLayout(mainLayout)
 
     # 监听事件
@@ -142,7 +180,7 @@ class MainWindow(QWidget):
     def update_display(self,label,photo_path):
         pixmap = QPixmap(photo_path)
         # sz = QSize(self.geometry().width()/2, self.geometry().width()/2)
-        sz = QSize(label.width(), label.height())
+        sz = QSize(label.size().width(), label.size().height())
         label.setScaledContents(True)
         # print(label.width(),label.height())
         pixmap = pixmap.scaled(sz, Qt.KeepAspectRatio)
