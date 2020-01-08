@@ -141,8 +141,8 @@ class MainWindow(QWidget):
     #     加载图片槽
     def update_display(self,label,photo_path):
         pixmap = QPixmap(photo_path)
-        sz = QSize(self.geometry().width()/2, self.geometry().width()/2)
-        # sz = QSize(label.width(), label.height())
+        # sz = QSize(self.geometry().width()/2, self.geometry().width()/2)
+        sz = QSize(label.width(), label.height())
         label.setScaledContents(True)
         # print(label.width(),label.height())
         pixmap = pixmap.scaled(sz, Qt.KeepAspectRatio)
@@ -179,6 +179,7 @@ class MainWindow(QWidget):
         self.add_status(self.status,text)
         self.update_text(self.label_right2, folder_path)
         files = os.listdir(folder_path)
+        # self.label_left.
         for file in files:
             self.label_left.addItem(file)
             # text = text + file+"\n"
