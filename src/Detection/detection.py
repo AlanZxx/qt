@@ -1,5 +1,7 @@
 from PyQt5.QtWidgets import QApplication,QListWidget,QHBoxLayout,QVBoxLayout,QListWidgetItem,QTextEdit,QMessageBox,QWidget,QGridLayout,QLabel,QPushButton,QRadioButton,QFileDialog,QDialog
 from PyQt5.QtGui import QIcon,QPixmap,QFont
+# from PyQt5.QtWidgets import QApplication,QWidget,QListWidget,QVBoxLayout,QHBoxLayout
+from PyQt5.QtCore import Qt,QDir,QSize
 import sys
 import glob
 import os
