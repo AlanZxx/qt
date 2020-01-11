@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd3dfced-c4d3-47bc-a6be-76753b31ddff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Detection/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Detection/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Detection/detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Detection/detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Detection/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Detection/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +30,6 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
-  </component>
   <component name="ProjectId" id="1VsZQse8OaxQ5osOFWJSdVtUPGq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,20 +39,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Faster-RCNN-TensorFlow-Python3" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python_code\qt\src\Detection" />
-      <recent name="D:\python_code\qt\src\basic" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\idea_space\qt\src\controllers\image" />
+      <recent name="D:\python_code\qt" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python_code\qt\src\basic" />
     </key>
   </component>
   <component name="RunManager" selected="Python.detection">
-    <configuration name="QuitApplication" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controllers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Detection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controllers/QuitApplication.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Detection/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ScreenGeometry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/controllers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/controllers/ScreenGeometry.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/basic/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="qt_tesst" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="qt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Detection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Detection/test.py" />
+      <option name="SCRIPT_NAME" value="D:\python_code\qt\src\basic\qt_tesst.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\python_code\qt\src\Detection\test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,20 +156,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.QuitApplication" />
-      <item itemvalue="Python.ScreenGeometry" />
-      <item itemvalue="Python.detection" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.test (1)" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.detection" />
-        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.config" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.ScreenGeometry" />
-        <item itemvalue="Python.QuitApplication" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.qt_tesst" />
       </list>
     </recent_temporary>
   </component>
@@ -222,186 +211,138 @@
       <updated>1578048226476</updated>
     </task>
     <task id="LOCAL-00004" summary="designer的配置&#10;将pycharm添加designer和pyuic">
-      <created>1578154679919</created>
+      <created>1578048304359</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1578154679919</updated>
+      <updated>1578048304359</updated>
     </task>
-    <task id="LOCAL-00005" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget">
-      <created>1578155730486</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1578155730486</updated>
-    </task>
-    <task id="LOCAL-00006" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出">
-      <created>1578157141027</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1578157141027</updated>
-    </task>
-    <task id="LOCAL-00007" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出">
-      <created>1578157807562</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1578157807562</updated>
-    </task>
-    <task id="LOCAL-00008" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出">
-      <created>1578158546692</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1578158546692</updated>
-    </task>
-    <task id="LOCAL-00009" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件">
-      <created>1578473229928</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1578473229928</updated>
-    </task>
-    <task id="LOCAL-00010" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件">
-      <created>1578473658387</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1578473658387</updated>
-    </task>
-    <task id="LOCAL-00011" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件">
-      <created>1578487339951</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1578487339951</updated>
-    </task>
-    <task id="LOCAL-00012" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件">
-      <created>1578491855911</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1578491855911</updated>
-    </task>
-    <task id="LOCAL-00013" summary="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件">
-      <created>1578546137542</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1578546137542</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic" />
-    <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget" />
-    <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出" />
-    <MESSAGE value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="designer的配置&#10;将pycharm添加designer和pyuic&#10;添加第一个手写的Qwidget&#10;QutiApplication点击退出&#10;添加总的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="designer的配置&#10;将pycharm添加designer和pyuic" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578048127348">
+    <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578628734675">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048127348" />
+    <state x="590" y="299" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578628734675" />
     <state x="689" y="150" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578047228858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="150" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047228858" />
-    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578544336657">
+    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578543203697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578544336657" />
     <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048180724" />
-    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578489524500" />
-    <state x="511" y="0" key="CommitChangelistDialog2" timestamp="1578546137121">
+    <state x="690" y="308" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578543203697" />
+    <state x="511" y="31" key="CommitChangelistDialog2" timestamp="1578761970868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="511" y="0" key="CommitChangelistDialog2/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578546137121" />
-    <state x="511" y="38" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048225939" />
-    <state x="511" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578491855537" />
-    <state width="983" height="582" key="DebuggerActiveHint" timestamp="1578463290479">
+    <state x="511" y="37" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048304000" />
+    <state x="511" y="31" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578761970868" />
+    <state x="689" y="212" key="FileChooserDialogImpl" timestamp="1578543159087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="983" height="582" key="DebuggerActiveHint/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578463290479" />
-    <state x="689" y="212" key="FileChooserDialogImpl" timestamp="1578545431846">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="212" key="FileChooserDialogImpl/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578545431846" />
     <state x="689" y="212" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047370126" />
-    <state x="689" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578489240349" />
+    <state x="689" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578543159087" />
     <state x="805" y="380" width="340" height="279" key="Github.ShareDialog" timestamp="1578043918957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="805" y="380" width="340" height="279" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578043918957" />
-    <state width="1894" height="218" key="GridCell.Tab.0.bottom" timestamp="1578546185367">
+    <state width="1894" height="270" key="GridCell.Tab.0.bottom" timestamp="1578761565414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="218" key="GridCell.Tab.0.bottom/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578546185367" />
-    <state width="1894" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
-    <state width="1894" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578492111421" />
-    <state width="1894" height="218" key="GridCell.Tab.0.center" timestamp="1578546185367">
+    <state width="1894" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048342652" />
+    <state width="1894" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578761565414" />
+    <state width="1894" height="270" key="GridCell.Tab.0.center" timestamp="1578761565413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="218" key="GridCell.Tab.0.center/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578546185367" />
-    <state width="1894" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
-    <state width="1894" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578492111421" />
-    <state width="1894" height="218" key="GridCell.Tab.0.left" timestamp="1578546185367">
+    <state width="1894" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048342652" />
+    <state width="1894" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578761565413" />
+    <state width="1894" height="270" key="GridCell.Tab.0.left" timestamp="1578761565413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="218" key="GridCell.Tab.0.left/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578546185367" />
-    <state width="1894" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
-    <state width="1894" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578492111421" />
-    <state width="1894" height="218" key="GridCell.Tab.0.right" timestamp="1578546185367">
+    <state width="1894" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048342652" />
+    <state width="1894" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578761565413" />
+    <state width="1894" height="270" key="GridCell.Tab.0.right" timestamp="1578761565413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="218" key="GridCell.Tab.0.right/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578546185367" />
-    <state width="1894" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578047783301" />
-    <state width="1894" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578492111421" />
-    <state width="1894" height="204" key="GridCell.Tab.1.bottom" timestamp="1578473353376">
+    <state width="1894" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048342652" />
+    <state width="1894" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578761565413" />
+    <state width="1894" height="335" key="GridCell.Tab.1.bottom" timestamp="1578758141472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="204" key="GridCell.Tab.1.bottom/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578473353376" />
-    <state width="1894" height="204" key="GridCell.Tab.1.center" timestamp="1578473353376">
+    <state width="1894" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578758141472" />
+    <state width="1894" height="335" key="GridCell.Tab.1.center" timestamp="1578758141472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="204" key="GridCell.Tab.1.center/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578473353376" />
-    <state width="1894" height="204" key="GridCell.Tab.1.left" timestamp="1578473353376">
+    <state width="1894" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578758141472" />
+    <state width="1894" height="335" key="GridCell.Tab.1.left" timestamp="1578758141472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="204" key="GridCell.Tab.1.left/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578473353376" />
-    <state width="1894" height="204" key="GridCell.Tab.1.right" timestamp="1578473353376">
+    <state width="1894" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578758141472" />
+    <state width="1894" height="335" key="GridCell.Tab.1.right" timestamp="1578758141472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1894" height="204" key="GridCell.Tab.1.right/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578473353376" />
-    <state x="337" y="72" key="SettingsEditor" timestamp="1578545434358">
+    <state width="1894" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578758141472" />
+    <state x="184" y="78" key="MergeDialog" timestamp="1578757801579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="72" key="SettingsEditor/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578545434358" />
+    <state x="184" y="78" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578757801579" />
+    <state x="596" y="160" key="MultipleFileMergeDialog" timestamp="1578757804627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="596" y="160" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578757804627" />
+    <state x="337" y="72" key="SettingsEditor" timestamp="1578671561690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
     <state x="337" y="72" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048181293" />
-    <state x="337" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578489525579" />
-    <state x="452" y="182" key="Vcs.Push.Dialog.v2" timestamp="1578546142968">
+    <state x="337" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578671561690" />
+    <state x="452" y="182" key="Vcs.Push.Dialog.v2" timestamp="1578048309570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="182" key="Vcs.Push.Dialog.v2/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578546142968" />
-    <state x="452" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048234521" />
-    <state x="452" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578491867384" />
-    <state x="577" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1578545251574">
+    <state x="452" y="182" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1578048309570" />
+    <state x="560" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1578757648301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="297" key="com.intellij.ide.util.TipDialog/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578545251574" />
-    <state x="577" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578489855860" />
-    <state x="652" y="262" key="git4idea.merge.GitPullDialog" timestamp="1578491861860">
+    <state x="560" y="296" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578757648301" />
+    <state x="676" y="160" key="git4idea.branch.GitSmartOperationDialog" timestamp="1578757744492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="262" key="git4idea.merge.GitPullDialog/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578462144402" />
-    <state x="652" y="262" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578491861860" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1578472772745">
+    <state x="676" y="160" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578757744492" />
+    <state x="641" y="260" key="git4idea.merge.GitPullDialog" timestamp="1578757699910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/-1600.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1578472772745" />
+    <state x="641" y="260" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578757699910" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1578761075255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578761075255" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Detection/detection.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Detection/detection.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Detection/detection.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

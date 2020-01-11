@@ -1,16 +1,24 @@
 from PyQt5.QtWidgets import QApplication,QListWidget,QHBoxLayout,QVBoxLayout,QListWidgetItem,QTextEdit,QMessageBox,QWidget,QGridLayout,QLabel,QPushButton,QRadioButton,QFileDialog,QDialog
 from PyQt5.QtGui import QIcon,QPixmap,QFont
-# from PyQt5.QtWidgets import QApplication,QWidget,QListWidget,QVBoxLayout,QHBoxLayout
-from PyQt5.QtCore import Qt,QDir,QSize
+from PyQt5.QtCore import Qt,QSize
 import sys
-import glob
 import os
+import  configparser
+import requests
+
+from src.Detection.config import request_url
 
 # 0表示文件,1表示文件夹
 global file_or_folder_status
 global path
 path = None
 file_or_folder_status = 0
+
+
+def draw_img(text):
+    pass
+
+
 class MainWindow(QWidget):
     def __init__(self,parent = None):
         super(MainWindow, self).__init__(parent)
@@ -160,23 +168,35 @@ class MainWindow(QWidget):
         elif file_or_folder_status == 0:
             text = "\n"+"开始检测文件:"+path
             self.add_status(self.status,text)
-            # --------------------------执行检测过程-----------------------------
-            details = []
-            for i in range(3):
-                detail = {}
-                detail["name"] = "x"+str(i)
-                detail["x"] = i*10
-                detail["p"]= i+100
-                details.append(detail)
-            photo_path = path
-            self.result_file(self.label_middle2, self.label_right1, photo_path,details)
-            # self.result(self.label_middle2,self.label_right1,details,path1=path)
+            # --------------------------执行检测过程假数据-----------------------------
+            # details = []
+            # for i in range(3):
+            #     detail = {}
+            #     detail["name"] = "x"+str(i)
+            #     detail["x"] = i*10
+            #     detail["p"]= i+100
+            #     details.append(detail)
+            # --------------------------执行检测过程 requests数据-----------------------------
+            self.uploadfile(path)
         elif file_or_folder_status == 1:
             self.status.append("\n"+"开始检测文件夹:"+path)
             # 开始检测文件夹
-
         else:
             print("文件/文件夹状态异常")
+
+    def uploadfile(self,file):
+        uploadfile = {'file': open(file, 'rb')}
+        response = requests.post(request_url.last_url,files = uploadfile)
+        # 请求成功.
+        if response.status_code==200:
+            # 进行画图操作
+            draw_img(response.text)
+            self.showDialog("检测成功")
+        # 请求失败
+        elif response.status_code==500:
+            self.showDialog("请求失败")
+        else:
+            self.showDialog("返回值异常")
     #     加载图片槽
     def update_display(self,label,photo_path):
         pixmap = QPixmap(photo_path)
@@ -260,8 +280,9 @@ class MainWindow(QWidget):
 
     # 展示检测结果文件，更新状态图片ui，以及label
     def result_file(self, pix,text,path,details):
-        self.update_display(self.label_middle2,path)
-        text.setText(self.getDetails(details))
+        self.update_display(pix,path)
+        text.setText(str(details))
+        # text.setText(self.getDetails(details))
 
 
     def getDetails(self,details):
